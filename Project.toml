@@ -1,0 +1,13 @@
+name = "myfirstpackage"
+uuid = "7c3bc364-f5f6-4a5a-98a9-21b573abc9c1"
+authors = ["marleen.traas@gmail.com"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
